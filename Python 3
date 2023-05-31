@@ -1,5 +1,5 @@
 **********************************************************************3.1***********************************************************************************
-HelloWorld
+HelloWorld Project
 
 lovely_loveseat_description = "Lovely Loveseat. Tufted polyester blend on wood. 32 inches high x 40 inches wide x 30 inches deep. Red or white."
 
@@ -28,7 +28,7 @@ print("Customer One Items")
 print(customer_one_itemization)
 
 **********************************************************************3.2**********************************************************************************
-Magic 8 Ball
+Magic 8 Ball Project
 
 import random
 Name = "Ana"
@@ -64,3 +64,34 @@ print(Name + " asks: " + Question)
 print("Magic 8-Ball's answer: " + answer)
 
 **********************************************************************3.3**********************************************************************************
+Sal's Shipping Project
+
+#"Drone Shipping
+weight = 41.5
+if weight <= 2:
+  drone_shipping = weight * 4.50
+elif weight <= 6:
+  drone_shipping = weight * 9
+elif weight <= 10:
+  drone_shipping = weight * 12
+else:
+  drone_shipping = weight * 14.25
+print(drone_shipping)
+
+#"Ground Shipping"
+weight = 8.4
+cost_ground_premium = 125.00
+if weight <= 10:
+  cost_ground = weight * 4 + 20
+elif weight <= 2:
+  cost_ground = weight * 1.50 + 20
+elif weight <= 6:
+  cost_ground = weight * 3 + 20
+else:
+  cost_ground = weight * 4.75 + 20
+
+print(cost_ground)
+print ("Ground Shipping Premium $", cost_ground_premium)
+
+**********************************************************************3.4**********************************************************************************
+
